@@ -13,8 +13,22 @@ import Welcome from './components/Welcome'
  import EventBind from './components/EventBind';
  import NameList from './components/NameList';
  import NameList2 from './components/NameList2';
+ import Stylesheet from './components/Stylesheet'
  import UserGreeting from './components/UserGreeting';
+ import Form from './components/Form';
+ import LifecycleA  from './components/LifecycleA';
+ import Inline from './components/inline';
+ import FragmentDemo from './components/FragmentDemo';
+ import Table from './components/Table.js'
+//  import PureComp from './components/PureComp'
+ import ParentComp from './components/ParentComp'
+ import RefsDemo from './components/RefsDemo'
+ import FRParentInput from './components/FRParentInput'
+ import Input from './components/Input'
+ import './appStyles.css'
+ import styles from './appStyles.module.css'
  import {Navbar} from 'reactstrap';
+// import { PureComponent } from './components/PureComponent';
 // import Hello1 from './components/Hello1';
 
 // function App() {
@@ -70,9 +84,22 @@ class App extends Component{
       <EventBind></EventBind>
      <ParentComponent></ParentComponent>
      <UserGreeting></UserGreeting>
-    
      <NameList></NameList>
      <NameList2></NameList2>
+     <Stylesheet primary={true}></Stylesheet>
+     <Stylesheet primary={false}></Stylesheet>
+     <Inline></Inline>
+     <h1 className='error'>error</h1>
+     <h1 className={styles.success}>success</h1>
+     <Form></Form>
+     <LifecycleA></LifecycleA>
+     <FragmentDemo></FragmentDemo>
+     <Table></Table>
+     {/* <PureComp></PureComp> */}
+     <ParentComp></ParentComp>
+     <RefsDemo></RefsDemo>
+     <FRParentInput></FRParentInput>
+     {/* <Input></Input> */}
       </div>
     );
   }
