@@ -24,10 +24,22 @@ import Welcome from './components/Welcome'
  import ParentComp from './components/ParentComp'
  import RefsDemo from './components/RefsDemo'
  import FRParentInput from './components/FRParentInput'
- import Input from './components/Input'
+ //import Input from './components/Input'
  import './appStyles.css'
  import styles from './appStyles.module.css'
  import {Navbar} from 'reactstrap';
+import PortalDemo from './components/portalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import  ClickCounter  from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import Conter from './components/Conter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+//import  ClickCounterTwo from'./components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import { UseProvider } from './components/userContext';
+import ComponentC from './components/ComponentC'
+//import User from './components/User';
 // import { PureComponent } from './components/PureComponent';
 // import Hello1 from './components/Hello1';
 
@@ -100,6 +112,28 @@ class App extends Component{
      <RefsDemo></RefsDemo>
      <FRParentInput></FRParentInput>
      {/* <Input></Input> */}
+     <PortalDemo></PortalDemo>
+     <ErrorBoundary>
+     <Hero heroName="batman"></Hero>
+     </ErrorBoundary>
+    <ErrorBoundary>
+       <Hero heroName="joker"></Hero>
+     </ErrorBoundary>
+     <ClickCounter></ClickCounter>
+     <HoverCounter></HoverCounter>
+     {/* <ClickCounterTwo></ClickCounterTwo>
+     <HoverCounterTwo></HoverCounterTwo>
+     <User render={(isLoggedIn)=>isLoggedIn?'vishvas':'guest'}></User>
+     <User render={(isLoggedIn)=>isLoggedIn?'vishvas':'guest'}></User> */}
+     <Conter render={(count,incrementCount)=>(<ClickCounterTwo count={count} incrementCount={incrementCount}/>
+     )}
+     />
+      <Conter render={(count,incrementCount)=>(<HoverCounterTwo count={count} incrementCount={incrementCount}/>
+     )}
+     />
+     {/* <UseProvider value="Vishvas">
+       <ComponentC></ComponentC>
+     </UseProvider> */}
       </div>
     );
   }
