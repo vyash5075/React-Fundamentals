@@ -35,6 +35,7 @@ import  ClickCounter  from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import Conter from './components/Conter';
 import ClickCounterTwo from './components/ClickCounterTwo';
+import PostList from './components/PostList';
 //import  ClickCounterTwo from'./components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import { UseProvider } from './components/userContext';
@@ -134,7 +135,9 @@ class App extends Component{
      {/* <UseProvider value="Vishvas">
        <ComponentC></ComponentC>
      </UseProvider> */}
+      <PostList></PostList>
       </div>
+     
     );
   }
 
