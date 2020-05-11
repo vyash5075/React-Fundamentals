@@ -36,6 +36,7 @@ import HoverCounter from './components/HoverCounter';
 import Conter from './components/Conter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 //import  ClickCounterTwo from'./components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
 import { UseProvider } from './components/userContext';
@@ -136,6 +137,7 @@ class App extends Component{
        <ComponentC></ComponentC>
      </UseProvider> */}
       <PostList></PostList>
+      <PostForm></PostForm>
       </div>
      
     );
