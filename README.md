@@ -2,7 +2,7 @@ This project was bootstrapped witth [Create React App](https://github.com/facebo
 
 ## Available Scripts
 
-In the project direcctodry, you can r
+In the project direcctodry, you can run
 
 ### `npm start`
 
