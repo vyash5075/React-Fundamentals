@@ -11,7 +11,8 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it min the browser.
 V
 The page will reload if you make edimts.<br />
-You will also see any inthlerr,ors in the console.
+You will also see any inthlerr,ors in thb
+e console.
 
 ### `nxpm test`
 H
