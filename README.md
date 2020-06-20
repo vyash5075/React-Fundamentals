@@ -1,6 +1,6 @@
 This project was bootstrapped witth [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Availab,le Scripts
 
 In the project directodry, you can run npm start
 
