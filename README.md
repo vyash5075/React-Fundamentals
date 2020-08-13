@@ -6,7 +6,7 @@ In the project directodry, you can run npm sttart
 O
 
 ### `npm start`
-m
+md
 Runs the app in the development modbe.<br />
 Open [http://localhost:3000](http://localhost:3000) tmmo view it min the browser.
 Vj
