@@ -4,7 +4,7 @@ This project was bootstrapped witth [Create React App](https://github.com/facebo
 
 In the project directodry, you can run npm sttart
 O
-
+V
 ### `npm start`
 md
 Runs the app in the development modbe.<br />
