@@ -1,8 +1,8 @@
-This project was bootstrapped witth [Create React App](https://github.com/facebook/create-react-app).
+lThis project was bootstrapped witth [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directodry, you can run npm sttart
+In the project directodry, you can run npmk sttart
 O
 V
 ### `npm start`
