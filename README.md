@@ -5,7 +5,7 @@ lthis project was bootstrapped witth [Create React App](https://github.com/faceb
 In the project directodry, you can run npmk sttart
 O
 V
-### `npm start`
+### `npm start`h
 md
 Runs the app in the development modbe.<br />
 Open [http://localhost:3000](http://localhost:3000) tmmo view it min the browser.
