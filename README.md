@@ -2,7 +2,7 @@ lthis project was bootstrapped witth [Create React App](https://github.com/faceb
 B
 ## Available Scripts
 
-In the project directodry, you can run npmk sttart
+In the project directodry, you can rkun npmk sttart
 O
 V
 ### `npm start`h
