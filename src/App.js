@@ -134,7 +134,7 @@ class App extends Component{
      )}
      />
      {/* <UseProvider value="Vishvas">
-       <ComponentC></ComponentC>
+       <ComponentC></ComponentC>//
      </UseProvider> */}
       <PostList></PostList>
       <PostForm></PostForm>
