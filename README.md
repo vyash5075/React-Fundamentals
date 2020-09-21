@@ -4,7 +4,7 @@ B
 
 In the project directodry, you can rkun npmk sttart
 O
-V
+Vf
 ### `npm start`h
 md
 Runs the app in the development modbe.<br />
@@ -17,7 +17,7 @@ V
 ### `nxpm test`
 H a
 Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the section about [running d](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
