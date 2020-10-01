@@ -11,7 +11,7 @@ Runs the app in the development modbe.<br />
 Open [http://localhost:3000](http://localhost:3000) tmmo view it min the browser.
 Vj
 The page will reload if you make edimts.<br />
-You will. also see any inthlerr,ors in thb
+You will. also see any inthlerr,orsb in thb
 e console.hk
 V
 ### `nxpm test`
