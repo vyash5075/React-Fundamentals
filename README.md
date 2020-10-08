@@ -3,7 +3,7 @@ B
 ## Available Scripts
 
 In the project directodry, you can rkun npmk sttart
-O
+Oc
 Vf
 ### `npm start`h
 md
