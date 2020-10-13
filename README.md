@@ -16,7 +16,7 @@ You will. also see any inthlerr,orsb in thb
 e console.hk
 V
 ### `nxpm test`h
-H a
+H ah
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running d](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
