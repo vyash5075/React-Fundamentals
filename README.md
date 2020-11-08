@@ -7,7 +7,7 @@ n the project directodry, you can rkun npmk sttart
 Oc
 Vf
 ### `npm start`h
-mdy
+mdygg
 Runs the app in the development modbe.<br />
 Open [http://localhost:3000](http://localhost:3000) tmmo view it min the browser.
 Vj
